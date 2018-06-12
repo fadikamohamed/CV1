@@ -1,0 +1,36 @@
+nav{
+  min-width:20%;
+}
+ul{
+  margin-left: 0%;
+  list-style-type: none;
+}
+
+nav, #block{
+  vertical-align: top;
+  display: inline-block;
+}
+.profExp{
+  padding-right: 20px;
+  padding-left: 10px;
+  grid-template-rows: 90px;
+}
+.skills{
+  display: grid;
+  grid-template-columns: 45%, 45%;
+  grid-template-rows: 20%x, 20%;
+  grid-template-areas: "web language"
+                        "cooking cooking"
+}
+.web{
+  grid-area: web;
+  max-width: 100%;
+}
+.language{
+  grid-area: language;
+  max-width: 100%;
+}
+.cooking{
+  grid-area: cooking;
+  max-width: 100%;
+}
